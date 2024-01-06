@@ -25,7 +25,7 @@ export default function App() {
   };
 
   const handlePress2 = () => {
-    Alert.prompt("nimadir kiriting", "nima", text => console.log(text + "gul"))
+    Alert.prompt("nimadir kiriting", "nima", text => console.log(text))
   }
   return (
     <View style={styles.container}>
